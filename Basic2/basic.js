@@ -39,6 +39,11 @@ document.getElementsByClassName("btn")[0].addEventListener("click", printValue);
 //     }
 // Did the loop because we made more buttons...
 
+
+//##################################################//
+
+
+
 //Basic 1+2
 
 
@@ -47,10 +52,7 @@ function selectProfession() {
 
     var select = document.getElementById("professions").value;
 
-    document.getElementById("output2").innerHTML = select;
-    // var select = document.getElementById("professions").value;
-    //var hosp = document.getElementById("hospital").value;
-    //var edu = document.getElementById("education").value;
+
 
     if (select == "it") {
         document.getElementById("output1").style.backgroundColor = "purple";
