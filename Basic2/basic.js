@@ -52,7 +52,7 @@ function selectProfession() {
     var hosp = document.getElementById("hospital").value;
     var edu = document.getElementById("education").value;
 
-    if (it === true) {
+    if (it === false) {
         document.getElementById("output1").style.backgroundColor = "purple";
 
 
