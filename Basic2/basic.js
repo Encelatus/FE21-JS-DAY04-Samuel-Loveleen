@@ -48,22 +48,22 @@ function selectProfession() {
     var select = document.getElementById("professions").value;
 
     document.getElementById("output2").innerHTML = select;
-    var it = document.getElementById("it").value;
-    var hosp = document.getElementById("hospital").value;
-    var edu = document.getElementById("education").value;
+    // var select = document.getElementById("professions").value;
+    //var hosp = document.getElementById("hospital").value;
+    //var edu = document.getElementById("education").value;
 
-    if (it === false) {
+    if (select == "it") {
         document.getElementById("output1").style.backgroundColor = "purple";
 
 
-    } else if (hosp === true) {
+    } else if (select == "hospital") {
 
         document.getElementById("output1").style.backgroundColor = "yellow";
 
 
     } else {
 
-        document.getElementById("output1").style.backgroundColor = "green";
+        document.getElementById("output1").style.backgroundColor = "lightblue";
 
     }
 
