@@ -10,7 +10,7 @@ function addRemoveToGrid(){
             this.style.opacity= "0";
         
             this.style.transition = "1s";
-            setTimeout(()=>{this.opacity(0);},1000);
+            setTimeout(()=>{this.hidden();},1000);
             });
     }
     
